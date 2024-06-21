@@ -11,6 +11,7 @@ import Carousel from "../Carousel/page";
 import BrowseButton from "../BrowseButton/page";
 import Banner from "../Banner/page";
 import Shots from "../Shots/page";
+import Image from "next/image";
 
 export default function HomePage() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -135,7 +136,7 @@ export default function HomePage() {
               </a>
             </div>
           </div>
-          <img src="/images.png" alt="Dribbble Logo" className="w-24" />
+          <Image src="/images.png" alt="Dribbble Logo"  className="w-24" />
           <div className="flex items-center gap-6">
             <div className="relative">
               <input

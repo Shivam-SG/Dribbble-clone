@@ -1,6 +1,8 @@
 // components/Footer.js
 
 import React from "react";
+import Image from "next/image";
+
 import {
   FaTwitter,
   FaFacebookF,
