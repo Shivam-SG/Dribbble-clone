@@ -28,7 +28,7 @@ export default function HomePage() {
   return (
     <div>
       <Head>
-        <title>The world's destination for design | Dribbble</title>
+        <title>The world&apos;s destination for design | Dribbble</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link

@@ -14,6 +14,8 @@ const Footer = () => {
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center flex-wrap">
           <div className="flex items-center">
+            <Image src="/images.png" alt="Dribbble Logo" width={24}
+                  height={25} />
             <img src="/images.png" alt="Dribbble Logo" className="w-24" />
           </div>
           <div className="flex space-x-12 mt-4 lg:mt-0">
