@@ -5,12 +5,12 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Footer from "../Footer/page";
-import Design from "../Design/page";
-import Carousel from "../Carousel/page";
-import BrowseButton from "../BrowseButton/page";
-import Banner from "../Banner/page";
-import Shots from "../Shots/page";
+import Footer from "../Footer/Footer";
+import Design from "../Design/Design";
+import Carousel from "../Carousel/Carousel";
+import BrowseButton from "../BrowseButton/BrowseButton";
+import Banner from "../Banner/Banner";
+import Shots from "../Shots/Shots";
 import Image from "next/image";
 
 export default function HomePage() {
