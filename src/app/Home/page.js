@@ -26,17 +26,10 @@ export default function HomePage() {
     autoplaySpeed: 2000,
     rtl: true,
   };
+
   return (
     <div>
-      <Head>
-        <title>The world&apos;s destination for design | Dribbble</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;700&display=swap"
-          rel="stylesheet"
-        />
-      </Head>
+      
       <main className="min-h-screen flex flex-col items-center bg-gray-50 text-gray-900">
         <header className="w-full p-6 flex justify-between items-center">
           <div className="flex gap-4">
@@ -136,7 +129,13 @@ export default function HomePage() {
               </a>
             </div>
           </div>
-          <Image src="/images.png" alt="Dribbble Logo"  className="w-24" />
+          <Image
+            src="/images.png"
+            alt="Dribbble Logo"
+            width={96} // Adjust width as needed
+            height={24} // Adjust height as needed
+            className="w-24"
+          />
           <div className="flex items-center gap-6">
             <div className="relative">
               <input
