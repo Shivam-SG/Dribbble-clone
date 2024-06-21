@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="flex items-center">
             <Image src="/images.png" alt="Dribbble Logo" width={24}
                   height={25} />
-            <img src="/images.png" alt="Dribbble Logo" className="w-24" />
+            <Image src="/images.png" alt="Dribbble Logo" className="w-24" />
           </div>
           <div className="flex space-x-12 mt-4 lg:mt-0">
             <a
