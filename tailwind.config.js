@@ -7,6 +7,21 @@ module.exports = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        colorChange: {
+          '0%': { backgroundColor: '#ffda79' },
+          '25%': { backgroundColor: '#ffabe7' },
+          '50%': { backgroundColor: '#d2bcf3' },
+          '75%': { backgroundColor: '#edf3d8' },
+          '100%': { backgroundColor: '#ffda79' },
+        },
+      },
+      animation: {
+        colorChange: 'colorChange 8s infinite',
+      },
+      fontFamily: {
+        serif: ['"Source Serif 4"', 'Georgia', 'serif'],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
