@@ -2,7 +2,6 @@
 
 import React from "react";
 import Image from "next/image";
-
 import {
   FaTwitter,
   FaFacebookF,
@@ -16,9 +15,7 @@ const Footer = () => {
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center flex-wrap">
           <div className="flex items-center">
-            <Image src="/images.png" alt="Dribbble Logo" width={24}
-                  height={25} />
-            <Image src="/images.png" alt="Dribbble Logo" className="w-24" />
+            <Image src="/images.png" alt="Dribbble Logo" width={96} height={96} />
           </div>
           <div className="flex space-x-12 mt-4 lg:mt-0">
             <a
@@ -100,7 +97,6 @@ const Footer = () => {
               </a>
             </div>
           </div>
-
           <div className="flex space-x-6 mt-4 lg:mt-0">
             <a href="#" className="text-gray-600 text-sm hover:text-gray-900">
               Jobs
